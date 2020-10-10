@@ -14,7 +14,8 @@ namespace ExamenIngresoGlobalCitizenEtermax
             TiendaDeRopa tienda1 = new TiendaDeRopa("Casa Tia", "Beltran 368");
             tienda1.GenerarListadoDePrendas();
             Vendedor vendedor1 = new Vendedor("Tito", "Gonzales", 0123, tienda1);
-
+            Console.WriteLine(vendedor1.RealizarCotizaciones(tienda1.ListadoPrendas[1], 5));
+            Console.ReadKey();
         }
     }
 }

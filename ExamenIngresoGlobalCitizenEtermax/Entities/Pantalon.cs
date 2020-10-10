@@ -19,8 +19,9 @@ namespace ExamenIngresoGlobalCitizenEtermax.Entities
         {
             base.CalcularPrecioFinal();
             if (this.Tipo == "Chupin")
-            { 
+            {
                 this.Precio -= this.Precio / 0.12;
             }
         }
+    }
 }
