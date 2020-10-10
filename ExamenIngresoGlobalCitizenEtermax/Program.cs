@@ -10,6 +10,7 @@ namespace ExamenIngresoGlobalCitizenEtermax
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
