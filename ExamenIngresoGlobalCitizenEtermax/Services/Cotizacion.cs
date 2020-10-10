@@ -21,7 +21,7 @@ namespace ExamenIngresoGlobalCitizenEtermax.Entities
             this.FechaYHora = ObtenerFechaYHora();
             this.Prenda = prenda;
             this.CantidadUnidades = cantidadUnidades;
-            prenda.CalcularPrecio();
+            prenda.CalcularPrecioFinal();
             this.ResultadoCotizacion = prenda.Precio * cantidadUnidades;
 
         }

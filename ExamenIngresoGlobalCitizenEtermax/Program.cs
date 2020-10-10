@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExamenIngresoGlobalCitizenEtermax.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace ExamenIngresoGlobalCitizenEtermax
     {
         static void Main(string[] args)
         {
+            TiendaDeRopa tienda1 = new TiendaDeRopa("Casa Tia", "Beltran 368");
+            tienda1.GenerarListadoDePrendas();
+            Vendedor vendedor1 = new Vendedor("Tito", "Gonzales", 0123, tienda1);
 
         }
     }
